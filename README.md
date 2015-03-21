@@ -1,5 +1,8 @@
 # log-temperature
 
+Simple Linux script for logging temperature readings from one or more one-wire 
+temperature sensors (DS18S20, DS1822, DS18B20), e.g. connected to a Raspberry Pi.
+
 The python-scripts depend on the w1thermsensor module, so install that first: 
 https://github.com/timofurrer/w1thermsensor
 
