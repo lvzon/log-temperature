@@ -27,3 +27,8 @@ Author: Levien van Zon, levien AT zonnetjes.net
 Note: This is my first attempt at Python, without properly learning it, 
 so please excuse the somewhat messy style. I will clean this up as I learn 
 more Python. :-)
+
+The best choice for most people will be the DS18B20 sensor, which is easy to find, has a fair accuracy and also comes in a waterproofed version. It can be ordered cheaply from Ebay or your preferred electronics store.
+Connecting one is very easy. You'll need a 4.7 kOhm pull-up resistor and three wires. A small breadboard may come in handy as well: http://www.reuk.co.uk/print.php?article=DS18B20-Temperature-Sensor-with-Raspberry-Pi.htm
+Multiple sensors can simply be connected in series, e.g.: http://iot-projects.com/index.php?id=connect-ds18b20-sensors-to-raspberry-pi
+When using long cable lengths, be sure to use a good quality cable (e.g. cat5 UTP), and avoid a star topology: http://www.maximintegrated.com/en/app-notes/index.mvp/id/148
